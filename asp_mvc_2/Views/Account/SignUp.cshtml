@@ -2,8 +2,7 @@
 @{
     ViewBag.Title = "SignUp";
     Layout = "~/Views/Shared/_Layout.cshtml";
-} <
-h2>SignUp</h2>
+} <h2>SignUp</h2>
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -102,7 +101,6 @@ new SelectListItem { Text="Female", Value="F" }
             </div>
         </div>
     </div>
-} <
-div>
+} 
 @Html.ActionLink("Back to Main", "Index", "Home")
 </div>
